@@ -27,7 +27,7 @@ public class CompanyController {
 	CompanyDAO companyDAO;
 	
 	
-	/* to save company */
+	/* to save */
 	
 	@PostMapping("/company")
 	public Company createCompany(@Valid @RequestBody Company cmp) {
@@ -36,7 +36,7 @@ public class CompanyController {
 	}
 	
 	
-	/* get all companies*/
+	/* get all*/
 	
 	@GetMapping("/companies")
 	public List <Company> getAllCompany(){
